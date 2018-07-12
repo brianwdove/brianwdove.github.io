@@ -1,0 +1,46 @@
+
+body {
+	background-image: url('https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-position: center;
+ 	 background-size: cover;
+  	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+}
+
+h1 { 
+	text-transform: uppercase;
+	text-align:center;
+	color: rgba(255, 255, 255, .9);
+	font-size: 2em;
+	letter-spacing: .5em;
+ }
+
+ .col{
+ 	display:flex;
+ 	justify-content:  center;
+ }
+
+.btn-primary {
+
+	background-color: #223a5e;
+	color: #fff;
+	border-radius:0;
+	width: 20em;
+	height: 3em;
+	border:none;
+	margin-top: 20%;
+	letter-spacing:.5em;
+
+}
+
+.btn-primary:hover{
+	background-color: rgba(23,89,72,.8);
+	border:none;
+}
+
+.container {
+	margin-top: 20em;
+
+}
+
